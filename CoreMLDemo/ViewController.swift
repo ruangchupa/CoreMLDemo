@@ -61,7 +61,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
             return
         }
         
-        classifier.text = String.init(describing: prediction.classLabelProbs)
+        classifier.text = "This is a \(prediction.classLabel)"
     }
 }
 
